@@ -1,0 +1,61 @@
+.form-price {
+    background-color: #24272d;
+    padding: 7% 0;
+}
+
+.form-price form {
+    text-align: center;
+    width: 30%;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: auto;
+}
+
+.form-price input {
+    margin: 7%;
+    background: transparent;
+    color: white;
+    border: solid white 1px;
+    width: 70%;
+    padding: 6%;
+}
+
+.form-price button {
+    width: 70%;
+    color: #24272d;
+    background-color: #ff8b20;
+    border-style: none;
+    margin-bottom: 7%;
+    padding: 6%;
+}
+
+button:focus {
+    outline: none;
+}
+
+.form-price h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.logo-img{
+    width: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .form-price form {
+        width: 80%;
+    }
+
+    .form-price h1 {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+}

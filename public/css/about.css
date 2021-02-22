@@ -1,0 +1,30 @@
+.about-container {
+    color: white;
+    background-color: #24272d;
+    padding: 10%;
+}
+
+.about-container img {
+    width: 30%;
+    float: left;
+    margin: 2% 2% ;
+}
+
+.about-container p {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.about {
+    font-family: 'Merriweather';
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #ff8b20;
+}
+
+@media (max-width : 766px) {
+    .about-container img {
+        width: 50%;
+    }
+}

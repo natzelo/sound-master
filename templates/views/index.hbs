@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal Cole</title>
+    {{>links}}
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/player.css">
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="header">
+        <h1>
+            Hi. <br>
+            I'm Jamal.
+        </h1>
+        <h3>
+            Mastering Engineer
+        </h3>
+    </div>
+
+    <div class="music-player">
+        <select id="song-select">
+            <option value="jazz">Jazz</option>
+            <option value="pop">Pop</option>
+        </select>
+
+
+        <div class="ab-selector">
+            <div class="radio-btn">
+                <input type="radio" name="ba" id="before-music" value="before" checked>
+                <label for="before-music" class=" ab-label before"></label>
+            </div>
+            <div class="radio-btn">
+                <input type="radio" name="ba" id="after-music" value="after">
+                <label for="after-music" class="ab-label after"></label>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="control-btns">
+            <button type="button" class="play"><i class="fas fa-play"></i></button>
+            <button type="button" class="pause"><i class="fas fa-pause"></i></button>
+        </div>
+
+
+
+
+        <div class="song-screen">
+            <p>Title: <span id="title"></span></p>
+            <p>Artist: <span id='artist'></span></p>
+        </div>
+
+    </div>
+
+    <div class="mastering">
+        <h1>+</h1>
+        <div class="wrapper">
+            <img src="images/vinyl.jpg" alt="">
+            <p> <br> <span>MASTERING</span> <br> <br> <br>
+                When searching for a mixing and mastering engineer, the best method is to send your music to a couple of
+                various audio engineering studios to see who can make your music sound the best. Employing an stranger
+                to mix and/or master your music can be terrifying, yet getting an example from a couple of various audio
+                engineers before recruiting them makes it significantly simpler to discover somebody you can trust. I'm
+                certain you'll see that my sound quality is astonishing, and that my client assistance is best in class.
+
+            </p>
+
+
+
+        </div>
+
+        <h1>+</h1>
+        <div class="wrapper">
+            <p><span>MIXING ADVICE</span> <br> <br> <br>
+                Better sounding mixes results better sounding masters. In the event that you'd like free mixing advice
+                before I mix and/or master your project, enter your information above to begin with a free and
+                affordable quote. In the event that you choose to hire me, I will make a free mixing advice recording
+                and/or video for you before mastering. We've had ventures in the past with not exactly flawless mixes
+                that wound up sounding astounding in the wake of mastering in huge part on account of our free blending
+                exhortation.
+
+
+            </p>
+            <img src="images/mixer.jpg" alt="">
+        </div>
+
+        <h1>+</h1>
+        <div class="wrapper">
+            <img src="images/mic.jpg" alt="">
+            <p> <br> <span>FREE MASTERING SAMPLE</span> <br> <br> <br>
+                To get a free mastering sample, email me with the songs and I'll master two unique examples of it for
+                free.
+                Regularly, I'll master one stronger, more compacted test, and another not so much packed but rather more
+                open sounding example. In the event that you like how the examples sound, you will have the option to pay me and 
+                get the full version in the next 24 hours.
+            </p>
+
+
+
+        </div>
+
+
+    </div>
+
+    {{>footer}}
+
+    {{>scripts}}
+    <script src="js/player.js"></script>
+</body>
+
+</html>

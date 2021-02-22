@@ -1,0 +1,18 @@
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ff8b20;
+}
+
+.navbar-custom {
+    font-family: 'Montserrat';
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+    margin: 20px;
+}
+
+.logo {
+    width: 100px;
+}

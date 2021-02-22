@@ -1,0 +1,72 @@
+.header {
+    color: white;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    padding-left: 7%;
+    padding-top: 7%;
+}
+
+.header h3 {
+    font-family: 'Montserrat';
+    padding-left: 7%;
+}
+
+.mastering {
+    background-color: #24272d;
+}
+
+.mastering img {
+    width: 400px;
+    height: 400px;
+    max-width: 432px;
+    box-shadow: -10px 10px  #ff8b20;
+}
+.mastering h1 {
+    text-align: center;
+    color: #ff8b20;
+    padding: 3%;
+}
+
+.wrapper {
+    display: flex;
+    padding: 4% 8% 4% 8%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wrapper p {
+    color: white;
+    font-family: 'Merriweather';
+    max-width: 432px;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 100;
+    margin: 5%;
+}
+
+.wrapper span {
+    text-decoration: underline;
+    text-decoration-color: #ff8b20;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 360px) {
+    .mastering img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper p {
+        font-size: 1rem;
+    }
+}

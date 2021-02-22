@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Price Quotes</title>
+    {{>links}}
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    {{>navbar}}
+
+   
+
+    <div class="form-price">
+         <img class="logo-img" src="images/logo.png" alt="">
+    <h1>I'll send you a mail with the price quotes</h1>
+        <form>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <br>
+            <button id="submit">Send</button>
+        </form>
+
+    </div>
+
+    {{>footer}}
+    {{>scripts}}
+    <script src="js/form.js"></script>
+</body>
+
+</html>
